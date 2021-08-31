@@ -1,0 +1,25 @@
+{
+  "name": "tss-web-pix",
+  "version": "1.0.0",
+  "description": "Plataforma pra emitir pix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xThiagoSant/tss-web-pix.git"
+  },
+  "author": "Thiago Santanna da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xThiagoSant/tss-web-pix/issues"
+  },
+  "homepage": "https://github.com/xThiagoSant/tss-web-pix#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
