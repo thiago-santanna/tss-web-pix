@@ -12,6 +12,8 @@ app.use(routes)
 
 const porta = process.env.PORTA
 
+app.get('/', (req, res) => { res.send("Hello, Sou uma API paramitir PIX.") })
+
 app.listen(porta, (err) => {
     (err) ? console.log(err) : console.log(`Servidor na porta: ${porta}`)
 })
