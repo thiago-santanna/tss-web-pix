@@ -1,4 +1,4 @@
-const hello = "Hello, Sou uma API paramitir PIX."
+const hello = "Hello, Sou uma API para criar PIX."
 const me = "Prazer sou Thiago o desenvolvedor."
 
 // Só que aqui irei exportar os retornos de funções que irão
