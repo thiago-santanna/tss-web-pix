@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use(routes)
 
-const porta = process.env.PORTA
+const porta = process.env.PORT || 3000
 
 app.get('/', (req, res) => { res.send("Hello, Sou uma API paramitir PIX.") })
 
