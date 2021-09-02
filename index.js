@@ -1,7 +1,7 @@
 require('dotenv').config({ path: './.env' })
 const express = require('express')
 const cors = require('cors')
-const routes = require('./routes')
+const routes = require('./src/routes')
 
 const app = express()
 
@@ -14,6 +14,6 @@ const porta = process.env.PORTA
 
 app.get('/', (req, res) => { res.send("Hello, Sou uma API paramitir PIX.") })
 
-app.listen(porta, (err) => {
+app.listen(porta || 3000, (err) => {
     (err) ? console.log(err) : console.log(`Servidor na porta: ${porta}`)
 })
