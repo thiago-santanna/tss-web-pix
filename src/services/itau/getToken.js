@@ -20,12 +20,7 @@ const getToken = async () => {
         },
         data: authCredenciais
     }
-
-    //console.log(process.env.NAME)
-    //return "teste um"
     const result = await axios(config)
     return result.data
 }
-
-//getToken()
 exports.getToken = getToken
